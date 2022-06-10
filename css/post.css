@@ -1,0 +1,57 @@
+#waline {
+  --waline-theme-color: #d14e4e;
+  --waline-active-color: #ff4848;
+}
+post a {
+  color: #d14e4e;
+}
+.post_title {
+  font: bold 2.3rem 'Noto Sans SC', sans-serif;
+  text-align: center;
+}
+.post_title:after {
+  content: '';
+  display: block;
+  margin: 0.2em auto 0;
+  width: 100px;
+  height: 2px;
+  border-bottom: 2px dashed #d14e4e;
+}
+#post_content {
+  font-size: 1.2rem;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+#post_content img {
+  margin: 0 10% 0 10%;
+  max-width: 80%;
+}
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+h4 {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.busuanzi {
+  font-weight: bold;
+}
+pre,
+.highlight {
+  margin: 1rem 0;
+  padding-left: 0.5rem;
+  overflow: auto;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+pre code.hljs {
+  padding: 0;
+}
